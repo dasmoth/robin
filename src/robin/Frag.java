@@ -7,7 +7,7 @@ public class Frag {
 	public final Label label;
 	// Also record strand for non-CpG analysis?
 	
-	public Frag(String chr, int min, int max, Label label) {
+	Frag(String chr, int min, int max, Label label) {
 		this.chr = chr; this.min = min; this.max = max;
 		this.label = label;
 	}
